@@ -44,7 +44,7 @@
 require('dotenv').config();
 const { MNEMONIC } = process.env;
 
-// const HDWalletProvider = require('@truffle/hdwallet-provider');
+const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 module.exports = {
   /**
@@ -73,9 +73,9 @@ module.exports = {
     },
     matic: {
       provider: function() {
-          return new HDWalletProvider(MNEMONIC, `https://testnet2.matic.network`)
+          return new HDWalletProvider(MNEMONIC, `https://polygon-mumbai.g.alchemy.com/v2/_qW8uY6F7irR41D2KPCvg0mvKeYvQtiT`)
       },
-      network_id: 8995,
+      network_id: 80001,
       gas: 6000000,
       gasPrice: 0
     },
