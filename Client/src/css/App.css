@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Koulen&family=Satisfy&display=swap");
+
+#root {
+  min-height: 100vh;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.3),
+      rgba(194, 194, 194, 0.493)
+    ),
+    url("https://t4.ftcdn.net/jpg/02/32/32/27/360_F_232322711_Q1f4rMOpFU91xCEP0v1l46cTIFywH3RX.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.882);
+  background-color: rgb(246, 183, 36);
+  box-shadow: 1px 0px 30px rgba(0, 0, 0, 0.396);
+  border-radius: 0 0 15px 15px;
+  font-weight: 400;
+  font-family: "Koulen", cursive;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 10px 0;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.app_body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app_cards {
+  border-radius: 5px;
+  box-shadow: 1px 0px 30px rgba(90, 89, 89, 0.396);
+  padding: 20px;
+  margin: 10px 0;
+  background: white;
+  width: 100%;
+}
+
+.btn_color {
+  background-color: rgb(246, 183, 36);
+  color: aliceblue;
+}
+
+.vote_container {
+  min-height: 70vh;
+}
+table {
+  background-color: rgba(255, 255, 255, 0.445);
+}
+
+#table1 {
+  margin-top: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+#table2 {
+  width: 100%;
+}
+
+tr,
+th,
+thead,
+td {
+  text-align: center;
+  color: rgb(50, 30, 0);
+}
+
+.admin_vote_container {
+  background-color: #5cb25d;
+  color: aliceblue;
+}
+
+.td_view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left !important;
+}
+.votes_heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#blink_dot {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 10px;
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^9.22.1",
+    "otp-input-react": "^0.3.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.8.0",
+    "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "^3.2.0",
+    "web3": "^1.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
